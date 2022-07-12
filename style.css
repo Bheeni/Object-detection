@@ -1,0 +1,41 @@
+
+.heading
+{
+font-size: 25px;
+width: 100%;
+margin-top:0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style:bold;
+}
+
+#status
+{
+font-size: 12.5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style:bold;
+width: fit-content;
+height: fit-content;
+padding: 5px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: lightsalmon;
+    border-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:bold;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgba(235, 112, 11, 0.992);}
+    to{box-shadow: 1px 1px 38px rgb(248, 17, 129);}
+}
+
+body{
+    background-size:cover;
+    background-position: center;
+}
